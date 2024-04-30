@@ -53,7 +53,7 @@ const App = () => {
   return (
     <div>
       <Search onSearch={handleSearch} />
-      <TransactionTable transactions={transactions} /> 
+      <TransactionTable transactions={filteredTransactions} /> 
       <AddTransactionForm onAddTransaction={handleAddTransaction} />
     </div>
   );
